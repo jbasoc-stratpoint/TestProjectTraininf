@@ -9,6 +9,10 @@ const config = {
       parserOptions: {
         project: 'tsconfig.json',
       },
+      rules: {
+        '@typescript-eslint/no-empty-interface': 'off',
+        '@typescript-eslint/no-unsafe-assignment': 'off',
+      },
     },
   ],
   parser: '@typescript-eslint/parser',
